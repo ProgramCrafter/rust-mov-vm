@@ -1,0 +1,12 @@
+[package]
+name = "mov-processor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[patch.crates-io]
+termion = { git = "https://gitlab.redox-os.org/Jezza/termion.git", branch = "windows-support" }
+
+[dependencies]
+termion = "1.5.5"
