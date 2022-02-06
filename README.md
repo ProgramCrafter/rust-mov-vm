@@ -1,5 +1,5 @@
 # rust-mov-vm
-## VM for Mov architecture, PC-Prm implementation
+## VM for Mov architecture, PGR-Prm implementation
 
 This VM introduces a new processor architecture, called Mov.
 It really consists of one command: MOV [src] [dst].
